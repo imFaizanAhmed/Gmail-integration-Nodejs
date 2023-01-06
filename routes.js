@@ -7,5 +7,6 @@ router.get("/mail/send", controllers.sendMail);
 router.get("/mail/drafts/:email", controllers.getDrafts);
 router.get("/mail/read/:messageId", controllers.readMail);
 router.get("/login", controllers.login);
+router.get("/googleAuth", controllers.getAuth);
 
 module.exports = router;
